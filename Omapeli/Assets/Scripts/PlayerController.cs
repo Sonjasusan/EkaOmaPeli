@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -13,23 +14,27 @@ public class PlayerController : MonoBehaviour
 
     private bool isGrounded; //Tarkistetaan onko pelaaja maassa
     public Rigidbody2D rb; //raahataan rigidbody scripti kohdan rb-kohtaan
-    private int count; //Laskuri "syödyille"/napatuille asioille
     private Vector2 movementDir; //Liikkumistoiminto
+
+
+    [SerializeField]
+    private Text cherryCounter, diamondCounter;
+
+    private int count; //Laskuri "syödyille"/napatuille asioille
 
     // Start is called before the first frame update
     void Start()
     {
         //Haetaan komponentti
         rb = GetComponent<Rigidbody2D>();
-        count = 0;
         SetCountText();
-        winTextObject.SetActive(false);
+        //winTextObject.SetActive(false);
     }
 
     //Asetetaan laskuriteksti
     void SetCountText()
     {
-        countText.text = "Items eated or found: " + count.ToString();
+        //countText.text = "Items eated or found: " + count.ToString();
         if (count >= 12)
         {
             winTextObject.SetActive(true);

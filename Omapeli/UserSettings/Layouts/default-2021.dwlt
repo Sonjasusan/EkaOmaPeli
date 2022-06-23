@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 1705
+  controlID: 21
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 1706
+  controlID: 22
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -168,7 +168,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 1707
+  controlID: 23
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -193,7 +193,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 1708
+  controlID: 24
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -333,8 +333,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -100, y: -25.600006}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: -100, y: -25.600006}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -355,7 +355,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 24.8}
+      snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -658,9 +658,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ee8f0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 24f6fcfff0f6fcffeef7fcffaef8fcffc6f9fcff86fafcff84fbfcff50fcfcff4efdfcff0efefcffcefefcff8efffcff5a00fdff4201fdfff615fdfff416fdffb417fdff7418fdff4019fdff3e1afdff5c27fdff2828fdff2229fdffde29fdff5e46fdffe47bfdfffe7dfdffba7efdff6e82fdffb09afdff589bfdff009cfdffb29cfdfffaa2fdff72aefdffa8cbfdff6ed8fdff16d9fdffbed9fdff70dafdff2adbfdff4e24feff562dfeff3c33feffe436feff7038feff7039feffca3afeff6e3bfeff123cfeffbc3cfeff6850feffb852feff3c53feffb853feff3e54feffec5afeffdc5bfeff625cfeffd260fefff0b2feff76b3feff56d4feff88dbfeff00defeffbcdefeff9edffefff2e2feff24e5feffeee5feffc4e6feff6ce7feff10e8feffbee8feff147effff508efffff4a8ffff7aa9ffff0caaffffecc7ffff58e3ffff2cfbffff3c6a0000466a000038900000ce960000d89600000c9c0000b0a20000eaa60000f4b0000042b300004cb3000056b6000002bc0000c8bc0000d2bc000078c2000050c300005ac300008ac8000058ca00005ad10000bed90000
+      m_SelectedIDs: f6950000
+      m_LastClickedID: 38390
+      m_ExpandedIDs: a0e7ffff6ce8ffff6ae9ffff2aeafffff6eaffffb6ebffff9ef1ffffa2f2ffffa0f3ffff60f4ffff38f5ffff04f6ffffc4f6ffffcaf7ffff96f8ffff56f9ffff2cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -830,23 +830,23 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c06a0000
-    m_LastClickedID: 27328
-    m_ExpandedIDs: 00000000a66a0000a86a0000aa6a0000ac6a0000b06a0000b26a0000d06a0000d26a0000707500001c7d0000cc800000ea8c000052a9000070a90000
+    m_SelectedIDs: bc6c0000
+    m_LastClickedID: 27836
+    m_ExpandedIDs: 00000000866c0000886c00008a6c00008c6c00008e6c0000906c0000926c0000946c0000966c0000986c00009a6c00009c6c00009e6c0000a06c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Prefabs
-      m_OriginalName: Prefabs
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 27326
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_SearchString: 
@@ -860,7 +860,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a86a0000aa6a0000ac6a0000ae6a0000b26a0000
+    m_ExpandedIDs: 00000000866c0000886c00008a6c00008c6c00008e6c0000906c0000926c0000946c0000966c0000986c00009a6c00009c6c00009e6c0000a06c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

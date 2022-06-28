@@ -4,8 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Diamond
   - Cherry
-  - PickUp
   layers:
   - Default
   - TransparentFX

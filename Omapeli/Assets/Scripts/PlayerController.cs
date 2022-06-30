@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
     private bool isGrounded; //Tarkistetaan onko pelaaja maassa
     public Rigidbody2D rb; //raahataan rigidbody scripti kohdan rb-kohtaan
     private Vector2 movementDir; //Liikkumistoiminto
- 
+
 
     // Start is called before the first frame update
     void Start()
@@ -28,9 +28,10 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movementDir.x = Input.GetAxis("Horizontal") * speed; //a & d -napit
+        movementDir.x = Input.GetAxis("Horizontal") * speed; //a & d  & nuoli-napit
         movementDir.y = rb.velocity.y;
-        animator.SetFloat("Speed",movementDir.x = Input.GetAxis("Horizontal"));
+        animator.SetFloat("Speed", movementDir.x = Input.GetAxis("Horizontal"));
+        //animator.SetFloat("Speed",speed);
 
         if (rb.velocity.y > -0.05 && rb.velocity.y < 0.05) //Onko pelaaja maassa
         {
@@ -50,8 +51,8 @@ public class PlayerController : MonoBehaviour
     {
         rb.velocity = movementDir;
     }
-    public void GameOver()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }   
+    //public void GameOver()
+    //{
+    //    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    //}
 }

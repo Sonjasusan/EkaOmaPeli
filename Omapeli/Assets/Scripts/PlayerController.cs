@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Events;
 
 public class PlayerController : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class PlayerController : MonoBehaviour
     public float jumpForce; //Hyppimistoiminto
     //public TextMeshProUGUI countText; //teksti
     //public GameObject winTextObject;
+
+    public Animator animator; //Liikehdinnän animointia varten
 
     private bool isGrounded; //Tarkistetaan onko pelaaja maassa
     public Rigidbody2D rb; //raahataan rigidbody scripti kohdan rb-kohtaan
@@ -27,6 +30,7 @@ public class PlayerController : MonoBehaviour
     {
         movementDir.x = Input.GetAxis("Horizontal") * speed; //a & d -napit
         movementDir.y = rb.velocity.y;
+        animator.SetFloat("Speed",movementDir.x = Input.GetAxis("Horizontal"));
 
         if (rb.velocity.y > -0.05 && rb.velocity.y < 0.05) //Onko pelaaja maassa
         {

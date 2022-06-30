@@ -5,17 +5,16 @@ using UnityEngine.UI;
 
 public class ItemCollector : MonoBehaviour
 {
-    [SerializeField] private Text cherriesText;
-    [SerializeField] private Text diamondsText;
-    private int cherries;
+    [SerializeField] private Text cherriesText, diamondsText;
+    private int cherries = 0;
     private int diamonds;
 
-    private void OnTriggerEnter(Collider collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Cherry"))
         {
             Destroy(collision.gameObject);
-            cherries = cherries + 1;
+            cherries++;
             cherriesText.text = "Cherries: " + cherries;
         }
         
@@ -26,4 +25,6 @@ public class ItemCollector : MonoBehaviour
             diamondsText.text = "Diamonds: " + diamonds;
         }
     }
+
+    
 }

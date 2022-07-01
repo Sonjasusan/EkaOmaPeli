@@ -13,14 +13,15 @@ public class PlayerBehavior : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space)) //Damagea hyppimisestä
         {
-            PlayerTakeDmg(20);
+            PlayerTakeDmg(20); // Saa 20 damagea
             Debug.Log(GameManager.gameManager._playerHealth.PlayerHealth);
         }
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+
+        if (Input.GetKeyDown(KeyCode.LeftShift)) //Voidaan healata shiftillä
         {
-            PlayerHeal(10);
+            PlayerHeal(10); //healaa kerralla 10
             Debug.Log(GameManager.gameManager._playerHealth.PlayerHealth);
 
         }

@@ -9,11 +9,18 @@ public class ItemCollector : MonoBehaviour
     private int cherries = 0;
     private int diamonds;
 
+    private void PlayerHeal(int healing)
+    {
+        GameManager.gameManager._playerHealth.healUnit(healing);
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Cherry"))
         {
             Destroy(collision.gameObject);
+            PlayerHeal(5); //healaa kerralla 5
+            Debug.Log(GameManager.gameManager._playerHealth.PlayerHealth);
             cherries++;
             cherriesText.text = "Cherries: " + cherries;
         }

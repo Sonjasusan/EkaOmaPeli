@@ -24,7 +24,6 @@ public class ItemCollector : MonoBehaviour
             diamonds = diamonds +1;
             diamondsText.text = "Diamonds: " + diamonds;
         }
-    }
 
-    
+    }
 }

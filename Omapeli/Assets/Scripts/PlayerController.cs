@@ -3,19 +3,27 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Events;
+using Assets.Scripts;
 
 public class PlayerController : MonoBehaviour
 {
-    public float speed;
+    //public float speed;
     public float jumpForce; //Hyppimistoiminto
-    //public TextMeshProUGUI countText; //teksti
-    //public GameObject winTextObject;
+   //public GameObject winTextObject;
+
+    private float horizontalInput;
+    private float walkSpeed = 3f;
+    private float runSpeed = 1.5f;
+
+    private bool runInput; //Juoksun nappi -> s
+
+
 
     public Animator animator; //Liikehdinnän animointia varten
 
     private bool isGrounded; //Tarkistetaan onko pelaaja maassa
-    public Rigidbody2D rb; //raahataan rigidbody scripti kohdan rb-kohtaan
-    private Vector2 movementDir; //Liikkumistoiminto
+    public Rigidbody2D rb; 
+    //private Vector2 movementDir; //Liikkumistoiminto
 
 
     // Start is called before the first frame update
@@ -23,15 +31,27 @@ public class PlayerController : MonoBehaviour
     {
         //Haetaan komponentti
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        movementDir.x = Input.GetAxis("Horizontal") * speed; //a & d  & nuoli-napit
-        movementDir.y = rb.velocity.y;
-        animator.SetFloat("Speed", movementDir.x = Input.GetAxis("Horizontal"));
-        //animator.SetFloat("Speed",speed);
+        //movementDir.x = Input.GetAxis("Horizontal") * speed; //a & d  & nuoli-napit
+
+        horizontalInput = Input.GetAxis("Horizontal"); //Kävely
+        runInput = Input.GetButton("Run");//Juoksu
+
+
+
+        //movementDir.y = rb.velocity.y;
+
+        //var animSpeed = horizontalInput;
+        var animSpeed = horizontalInput * (runInput ? 2 : 1);
+        animator.SetFloat(Keys.ANIMATION_SPEED_KEY, Mathf.Abs(animSpeed));
+        //Aiemmat animaatio käsittelijät
+        //animator.SetFloat("Speed", movementDir.x = Input.GetAxis("Horizontal"));
+        //animator.SetFloat("Speed", speed);
 
         if (rb.velocity.y > -0.05 && rb.velocity.y < 0.05) //Onko pelaaja maassa
         {
@@ -46,13 +66,37 @@ public class PlayerController : MonoBehaviour
         {
             rb.AddForce(Vector2.up * jumpForce);
         }
+
+        //Juoksu
+        animator.SetFloat(Keys.ANIMATION_SPEED_KEY, Mathf.Abs(animSpeed));
     }
     private void FixedUpdate()
     {
-        rb.velocity = movementDir;
+        //rb.velocity = movementDir;
+
+        var velocity = rb.velocity;
+        var moveSpeed = 0f;
+        var moveDirection = 1f;
+
+        if (!Mathf.Approximately(horizontalInput, 0))
+        {
+            moveSpeed = walkSpeed; //Liikkumisnopeus on kävelynopeus
+            moveDirection = Mathf.Sign(horizontalInput);
+        }
+        
+        velocity.x = moveSpeed * moveDirection;
+        rb.velocity = velocity;
+
+        //Juoksun if
+        if (!Mathf.Approximately(horizontalInput, 0))
+        {
+            moveSpeed = runInput ? runSpeed : walkSpeed;
+            moveDirection = Mathf.Sign(horizontalInput);
+        }
     }
-    //public void GameOver()
+}
+    //public void GameOver() <- Kun gameover tulee
     //{
     //    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     //}
-}
+

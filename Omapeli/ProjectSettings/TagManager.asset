@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Diamond
   - Cherry
+  - PickUp
+  - Mushroom
   layers:
   - Default
   - TransparentFX

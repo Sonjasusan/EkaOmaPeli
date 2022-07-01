@@ -94,9 +94,11 @@ public class PlayerController : MonoBehaviour
             moveDirection = Mathf.Sign(horizontalInput);
         }
     }
+
+
+    public void gameover() /*<- kun gameover tulee*/
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 }
-    //public void GameOver() <- Kun gameover tulee
-    //{
-    //    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    //}
 

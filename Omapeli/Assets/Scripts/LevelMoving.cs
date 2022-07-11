@@ -14,7 +14,7 @@ public class LevelMoving : MonoBehaviour
 
         if (other.tag == "Player")
         {
-            //Pelaaja osuu kohtaan - vaihdetaan leveliä
+            //Pelaaja osuu "LevelMove"kohtaan - vaihdetaan leveliä
             print("Switching scene to: " + sceneBuildIndex);
             SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
         }

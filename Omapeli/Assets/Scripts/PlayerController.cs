@@ -22,9 +22,9 @@ public class PlayerController : MonoBehaviour
     public Animator animator; //Liikehdinnän animointia varten
 
     private bool isGrounded; //Tarkistetaan onko pelaaja maassa
-    public Rigidbody2D rb; 
+    public Rigidbody2D rb;
     //private Vector2 movementDir; //Liikkumistoiminto
-
+    [SerializeField] private AudioSource jumpSoundEffect;
 
     // Start is called before the first frame update
     void Start()
@@ -65,6 +65,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             rb.AddForce(Vector2.up * jumpForce);
+            jumpSoundEffect.Play();
             
         }
 

@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
     private bool isGrounded; //Tarkistetaan onko pelaaja maassa
     public Rigidbody2D rb;
     //private Vector2 movementDir; //Liikkumistoiminto
-    [SerializeField] private AudioSource jumpSoundEffect;
+    [SerializeField] private AudioSource jumpSoundEffect; //hyppy soundeffect
 
     // Start is called before the first frame update
     void Start()

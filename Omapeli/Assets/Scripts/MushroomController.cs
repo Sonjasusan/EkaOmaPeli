@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MushroomController : MonoBehaviour
 {
-
+    [SerializeField] private AudioSource mushroomdmg;
     private void PlayerTakeDmg(int dmg)
     {
         GameManager.gameManager._playerHealth.dmgUnit(dmg);
@@ -15,6 +15,7 @@ public class MushroomController : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
+            mushroomdmg.Play();
             Destroy(gameObject);
             PlayerTakeDmg(5); //Player saa damagea kun osuu
             Debug.Log(GameManager.gameManager._playerHealth.PlayerHealth);

@@ -7,6 +7,7 @@ public class LevelMoving : MonoBehaviour
 {
 
     public int sceneBuildIndex;
+
     
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -14,6 +15,7 @@ public class LevelMoving : MonoBehaviour
 
         if (other.tag == "Player")
         {
+
             //Pelaaja osuu "LevelMove"kohtaan - vaihdetaan leveliä
             print("Switching scene to: " + sceneBuildIndex);
             SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);

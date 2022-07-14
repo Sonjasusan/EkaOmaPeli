@@ -338,6 +338,7 @@ MonoBehaviour:
   diamondsText: {fileID: 0}
   cherries: 0
   diamonds: 0
+  collectionSoundEffect: {fileID: 0}
 --- !u!1 &212641851
 GameObject:
   m_ObjectHideFlags: 0
@@ -1032,6 +1033,7 @@ MonoBehaviour:
   diamondsText: {fileID: 1421136529}
   cherries: 0
   diamonds: 0
+  collectionSoundEffect: {fileID: 0}
 --- !u!1 &1039428768
 GameObject:
   m_ObjectHideFlags: 0
@@ -1285,10 +1287,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d13ed9eea49c7dc408e9f15da9793cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cherriesText: {fileID: 1421136529}
-  diamondsText: {fileID: 0}
+  cherriesText: {fileID: 163506674}
+  diamondsText: {fileID: 1421136529}
   cherries: 0
   diamonds: 0
+  collectionSoundEffect: {fileID: 0}
 --- !u!114 &1421136529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1322,7 +1325,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0
+  m_Text: 
 --- !u!222 &1421136530
 CanvasRenderer:
   m_ObjectHideFlags: 0

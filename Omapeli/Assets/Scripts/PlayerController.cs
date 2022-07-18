@@ -13,9 +13,6 @@ public class PlayerController : MonoBehaviour
 
     private float horizontalInput;
     private float walkSpeed = 3f;
-    private float runSpeed = 1.5f;
-
-    private bool runInput; //Juoksun nappi -> s
 
 
 
@@ -40,14 +37,13 @@ public class PlayerController : MonoBehaviour
         //movementDir.x = Input.GetAxis("Horizontal") * speed; //a & d  & nuoli-napit
 
         horizontalInput = Input.GetAxis("Horizontal"); //Kävely
-        runInput = Input.GetButton("Run");//Juoksu
 
 
 
         //movementDir.y = rb.velocity.y;
 
-        //var animSpeed = horizontalInput;
-        var animSpeed = horizontalInput * (runInput ? 2 : 1);
+        var animSpeed = horizontalInput;
+        //var animSpeed = horizontalInput * (runInput ? 2 : 1);
         animator.SetFloat(Keys.ANIMATION_SPEED_KEY, Mathf.Abs(animSpeed));
         //Aiemmat animaatio käsittelijät
         //animator.SetFloat("Speed", movementDir.x = Input.GetAxis("Horizontal"));
@@ -70,7 +66,7 @@ public class PlayerController : MonoBehaviour
         }
 
         //Juoksu
-        animator.SetFloat(Keys.ANIMATION_SPEED_KEY, Mathf.Abs(animSpeed));
+        //animator.SetFloat(Keys.ANIMATION_SPEED_KEY, Mathf.Abs(animSpeed));
     }
     private void FixedUpdate()
     {
@@ -92,9 +88,19 @@ public class PlayerController : MonoBehaviour
         //Juoksun if
         if (!Mathf.Approximately(horizontalInput, 0))
         {
-            moveSpeed = runInput ? runSpeed : walkSpeed;
+            //moveSpeed = runInput ? runSpeed : walkSpeed;
             moveDirection = Mathf.Sign(horizontalInput);
         }
+
+        //if (pl.desiredVelocity.x >= 0.01f)
+        //{
+        //    transform.localScale = new Vector3(-1f, 1f, 1f);
+        //}
+        //else if (desiredVelocity.x <= -0.01f)
+        //{
+        //    transform.localScale = new Vector3(1f, 1f, 1f);
+
+        //}
     }
 
 

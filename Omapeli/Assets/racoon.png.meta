@@ -1,0 +1,2234 @@
+fileFormatVersion: 2
+guid: f04abdbbe8026c64e85962716d227ec8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: racoon_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 336
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff172ad57225fe4d92d00a99620be45
+      internalID: 727642198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 337
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9167c9a08f7068249bec60975f3016d4
+      internalID: 1524769621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 336
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fabde1135d9f305448fbcde0c57c3d2e
+      internalID: -1343400658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_3
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 336
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94cc2b9a5b20cc4ba231ebf8f22977a
+      internalID: -2000179452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_4
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 337
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44356c3017cecd641b4d3c0de194e2fe
+      internalID: -1952304722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_5
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 336
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bae155fcce7964d8da77d67b03df8e
+      internalID: -12808713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_6
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 336
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7500f021068cc91448c5d134825f6b91
+      internalID: 449518375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_7
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 337
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a52ba9df0ac2147b74cdaddeb65455
+      internalID: 125959062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_8
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 336
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8e81782b3e0a3409f5bf7b12d1c61d
+      internalID: -859307045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_9
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 336
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638c7605205b35342a4ee29fc2cb1df1
+      internalID: -1160274822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_10
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 337
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf1451a4cf3ed444802f68376ba5d88
+      internalID: -1678330169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_11
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 336
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87188a93955e3d41a4c874b352fed51
+      internalID: 720346643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 288
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bb2df51c7dc1148aa14af2a7781f05
+      internalID: 1429835091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_13
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 288
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0eaf87ea4e23b4d8600271428fdca2
+      internalID: -491368485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_14
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 288
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8075fb79991b940b3964d600694bbb
+      internalID: -892725429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_15
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 288
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df047fc1ffcbdcb49b7d6a94d8df0d46
+      internalID: -47830298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_16
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 288
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ba104673784ac43a823e38bbd88aaa
+      internalID: -1204460179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_17
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 288
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d78cb61364e1e4a94ae621faa7d32c
+      internalID: 128783856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_18
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 288
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4364e82cb981e4438ac8cee630c4a9e
+      internalID: -1004857605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_19
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 288
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88526ac209a52ff41a26132889cec4cd
+      internalID: 401099645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_20
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 288
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc62ce5943a3e63478cfe169d755b1cb
+      internalID: -1028931714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_21
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 288
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63106349b3f984c44a2153a426fc7a22
+      internalID: -892447421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_22
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 288
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19f284c1684c6d4f899902966247141
+      internalID: -65601214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_23
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 288
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d9e7ceee2f47e478462d74f7d0a255
+      internalID: -1063133769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_24
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 240
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde609a62a63dd647b9776c386bad944
+      internalID: -1581944987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_25
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 240
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d008831fbbe9f94aac0e1c278df8866
+      internalID: 96730589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_26
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 240
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25d519df08c2cf4aa9d45371fcbd4cc
+      internalID: -2091454221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_27
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 240
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f389a30a1cb7c348b71204fb2e0b098
+      internalID: 1971777687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_28
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 240
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cbe92c410e979468807a98aaec725d
+      internalID: -692898339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_29
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 240
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5698fd7256443ac4394621dfeaa7244c
+      internalID: 992725269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_30
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 240
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62798b1e382fbf45a84e47b70e5f839
+      internalID: 1975586802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_31
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 240
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c50590fa9096140a610b65e41f536e
+      internalID: -1364317312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_32
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 240
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35a3a40eb370c24db4fb9cd8544542a
+      internalID: 2126042259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_33
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 240
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc01ad39adb530048bd97e4b4da69c38
+      internalID: 1673991607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_34
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 240
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dac7d97425aa5547a0434560cfd712b
+      internalID: -2108222946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_35
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 240
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7777bae8b65491545a728530dd66d7eb
+      internalID: -183697060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_36
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 192
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6205b076d49714f4c9ffaa0ced529657
+      internalID: 221228225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_37
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 192
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015e7e8859d561741a068e15233fa94a
+      internalID: -1397032942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_38
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 192
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4468c43a45176c48b99e58b6571b052
+      internalID: -1549486920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_39
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 192
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2ea73f67a2e23428484d9e96276c41
+      internalID: -952104613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_40
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 192
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bcfe97f99aac849a0d3fff6e7bc9ba
+      internalID: 1250146462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_41
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 192
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1b1fe66ec6a2c47b3141144a010e58
+      internalID: 114927773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_42
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 192
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc5f8a10731d0a42a795b119d937e01
+      internalID: -1182961251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_43
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 192
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9c3b1a29651af4994e0ba89e76c662
+      internalID: -1694305617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_44
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 192
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be27718ce729aac42afd7278529e152d
+      internalID: -247733930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_45
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 192
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875df606f21a92e489581ae7a4d4c1d9
+      internalID: -825926531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_46
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 192
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605fe2750b00f1641bd6b30cb93b97f0
+      internalID: 1748785008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_47
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 192
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e57f7e2dde8c547944497103fb42cf
+      internalID: 1824012216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_48
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 144
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213dbfc640bd4874aa1eb457d7e867c2
+      internalID: 388591857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_49
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 145
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bbf417e02241f84e91a1d72a48eb0c9
+      internalID: -786738044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_50
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 144
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff47f4c38e31c8841bb1d88383228664
+      internalID: 502124078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_51
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 144
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f07323a874c6ab4385b09fc5d22786f
+      internalID: -449954393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_52
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 145
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046306704da9693439f5d48c8aa3f895
+      internalID: -470804477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_53
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 144
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ecb2635915942744b8760865bc7e374
+      internalID: 1447449164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_54
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 144
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4f1abca6f2fa445ad06167eaad96e9
+      internalID: -1035723189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_55
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 145
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2853128c7d4ad004785946365fb23a6d
+      internalID: -125906205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_56
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 144
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a872ac6651122044c986022384942030
+      internalID: -2104353533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_57
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 144
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28beb0e43a8e419489902aa48aeb8db6
+      internalID: -876688399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_58
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 145
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71941128d95e5741ad8962222f99e40
+      internalID: 949097328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_59
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 144
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45d4d805a4779748b9ff966f575b681
+      internalID: 1163615745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_60
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 96
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b751dba5f868940b69650a830cb99d
+      internalID: 2016506733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_61
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 96
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c063f66f97ee34ca340b421c818416
+      internalID: 1584722704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_62
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 96
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f6291348ca938469096b04c7188432
+      internalID: 1439799635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_63
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 96
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad52963b88763441b6297aa8c81a704
+      internalID: 392565573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_64
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 96
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666435a42d59fbc4098ed7a9d455c448
+      internalID: 1571414241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_65
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 96
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567486d4e2a50fb4e80c51c1c437daac
+      internalID: -1847749083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_66
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 96
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08b73e67472826439ba2a4e923a7121
+      internalID: 123870901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_67
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 96
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4f3e0291530c34f9dc4d5bc108dacd
+      internalID: 307297936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_68
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 96
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba74a5c4274caa47aa4e5663ccfea81
+      internalID: 706627321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_69
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 96
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494e041add0174841b1e1ca55d76b1ee
+      internalID: 2096356081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_70
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 96
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244c61193e6dfc44e95790de3153021a
+      internalID: 800158892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_71
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 96
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca96612e4f5fa3c43b5ae07382bfddb1
+      internalID: -1923401993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_72
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 48
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c03339c0f3430a40818f5365cd9a261
+      internalID: -443724323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_73
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 48
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81bea118ff18a443ac76a87bf8196d1
+      internalID: 1138306992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_74
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 48
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea87ab2f90a9e574bae87986e01f1f10
+      internalID: 2136941846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_75
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 48
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28cdd89cf8be0d543ad352f259031b5b
+      internalID: 1881971743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_76
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 48
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d61a108d718f944e9db21bc85ffc6f0
+      internalID: 1040576534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_77
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 48
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17c90cebf4bf1642aa5996a140fafa8
+      internalID: -2130488285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_78
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 48
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac752b185f39ed146a58acba95717c91
+      internalID: -1092409520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_79
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 48
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdcd56cc4a2e27e438c533842d07aa60
+      internalID: 1683529658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_80
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 48
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f6a4331df41e84a9292e960233af36
+      internalID: -317477755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_81
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 48
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185156a48e081e74c8f6b7e62ba3b18d
+      internalID: 314727931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_82
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 48
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8703f67bae129e2439a749a94c5373ed
+      internalID: -442881727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_83
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 48
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9a2e522181b724782780bff9452672
+      internalID: -535157454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_84
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51948b315b8aa047a765e6012cd0897
+      internalID: -445478595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_85
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 0
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf2746b1ce74924a95996932618a6ea
+      internalID: -1873923541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_86
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702dbbdd1f704ad4592a8ea4033eab26
+      internalID: 697151227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_87
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 0
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803aa752666b7da4d833e6db82d563fd
+      internalID: -116932265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_88
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 0
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ad2ed22c14f67489684cc5a892418d
+      internalID: 1207916311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_89
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 0
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ad732b8da524948861f0390bdadba5
+      internalID: 85112138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_90
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 0
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cd13facc03bd5488ea4171b06c5da5
+      internalID: -968551171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_91
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa4fbce67b7a4042b26d0cd474e2c1b
+      internalID: 751806000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_92
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 0
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baff32b7925dd074e83e166a79d05a58
+      internalID: 1928826711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_93
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 0
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4311e1bbfe81c7546940ad57e1bbe001
+      internalID: 1976157851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_94
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 0
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aae6e85f4876e740a88562554d035a5
+      internalID: 320784216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racoon_95
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 0
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0616ff350b543488d088228775c062
+      internalID: 413294807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      racoon_92: 1928826711
+      racoon_93: 1976157851
+      racoon_49: -786738044
+      racoon_11: 720346643
+      racoon_78: -1092409520
+      racoon_76: 1040576534
+      racoon_4: -1952304722
+      racoon_85: -1873923541
+      racoon_26: -2091454221
+      racoon_45: -825926531
+      racoon_67: 307297936
+      racoon_54: -1035723189
+      racoon_43: -1694305617
+      racoon_25: 96730589
+      racoon_18: -1004857605
+      racoon_31: -1364317312
+      racoon_69: 2096356081
+      racoon_61: 1584722704
+      racoon_38: -1549486920
+      racoon_64: 1571414241
+      racoon_70: 800158892
+      racoon_68: 706627321
+      racoon_16: -1204460179
+      racoon_19: 401099645
+      racoon_55: -125906205
+      racoon_62: 1439799635
+      racoon_12: 1429835091
+      racoon_83: -535157454
+      racoon_75: 1881971743
+      racoon_32: 2126042259
+      racoon_53: 1447449164
+      racoon_66: 123870901
+      racoon_13: -491368485
+      racoon_7: 125959062
+      racoon_57: -876688399
+      racoon_72: -443724323
+      racoon_9: -1160274822
+      racoon_1: 1524769621
+      racoon_3: -2000179452
+      racoon_17: 128783856
+      racoon_74: 2136941846
+      racoon_10: -1678330169
+      racoon_52: -470804477
+      racoon_89: 85112138
+      racoon_30: 1975586802
+      racoon_20: -1028931714
+      racoon_23: -1063133769
+      racoon_29: 992725269
+      racoon_15: -47830298
+      racoon_63: 392565573
+      racoon_81: 314727931
+      racoon_21: -892447421
+      racoon_41: 114927773
+      racoon_44: -247733930
+      racoon_84: -445478595
+      racoon_56: -2104353533
+      racoon_40: 1250146462
+      racoon_73: 1138306992
+      racoon_71: -1923401993
+      racoon_79: 1683529658
+      racoon_50: 502124078
+      racoon_24: -1581944987
+      racoon_47: 1824012216
+      racoon_27: 1971777687
+      racoon_37: -1397032942
+      racoon_5: -12808713
+      racoon_42: -1182961251
+      racoon_91: 751806000
+      racoon_95: 413294807
+      racoon_80: -317477755
+      racoon_51: -449954393
+      racoon_8: -859307045
+      racoon_86: 697151227
+      racoon_6: 449518375
+      racoon_39: -952104613
+      racoon_2: -1343400658
+      racoon_58: 949097328
+      racoon_0: 727642198
+      racoon_87: -116932265
+      racoon_94: 320784216
+      racoon_48: 388591857
+      racoon_28: -692898339
+      racoon_22: -65601214
+      racoon_59: 1163615745
+      racoon_90: -968551171
+      racoon_35: -183697060
+      racoon_88: 1207916311
+      racoon_34: -2108222946
+      racoon_77: -2130488285
+      racoon_82: -442881727
+      racoon_65: -1847749083
+      racoon_14: -892725429
+      racoon_33: 1673991607
+      racoon_36: 221228225
+      racoon_46: 1748785008
+      racoon_60: 2016506733
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -6,7 +6,6 @@ Enemyt toimivat AstarPathfindingProjectEditorilla (Unityn asset).
 
 
 Kehitetty Unitylla C#:lla ja internetistä löytyvien spritejen avulla.
-"Pelikehittämisen Jatkokurssi Unityllä"(22.03.22-11.05.22) -kurssin kurssitehtävä. 
 
 Peli julkaistu webGL:nä UnityPlayssa -> https://play.unity.com/mg/other/raccoonie?fbclid=IwAR1jt2KufcHyKwnbNSggfCZWl2RXpAZ1Qt_R4uEDlIKcMW2eO9wIEDGHAsQ
 Liikkuminen nuoli- tai a&d näppäimillä, hyppiminen space:lla.

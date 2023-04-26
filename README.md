@@ -8,7 +8,8 @@ Liikkuminen nuoli- tai a&d näppäimillä, hyppiminen space:lla.
 
 Kehitetty Unitylla C#:lla ja internetistä löytyvien spritejen avulla.
 
-Peli julkaistu webGL:nä UnityPlayssa -> https://play.unity.com/mg/other/raccoonie?fbclid=IwAR1jt2KufcHyKwnbNSggfCZWl2RXpAZ1Qt_R4uEDlIKcMW2eO9wIEDGHAsQ
+Peli julkaistu webGL:nä UnityPlayssa -> https://play.unity.com/mg/other/raccoonie?
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 2D game "Raccoonie". 
